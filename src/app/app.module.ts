@@ -10,6 +10,12 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { NavComponent } from './nav/nav.component';
+import { HeaderComponent } from './header/header.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   imports: [
@@ -29,7 +35,13 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    NavComponent,
+    HeaderComponent,
+    AboutComponent,
+    ContactComponent,
+    FooterComponent,
+    ProjectComponent
   ],
   bootstrap: [
     AppComponent
